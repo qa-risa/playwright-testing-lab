@@ -3,7 +3,7 @@
 Playwright × TypeScript で E2E テストを書いた学習用のリポジトリです。
 
 学んだことは Qiita の記事にまとめています。
-- Qiita：【記事のURL】
+- Qiita：https://qiita.com/qa_risa/items/8f6b00678337c0a870d2
 
 ## やったこと
 
