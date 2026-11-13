@@ -5,7 +5,7 @@ import { RegisterResultsPage } from '../pages/register-results-page';
 
 test('register account', async ({ page }) => {
   await page.goto('https://tutorialsninja.com/demo');
-  
+
   const mainPage = new MainPage(page);
   await mainPage.clickAccountOptions();
 

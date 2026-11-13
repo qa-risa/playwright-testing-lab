@@ -10,7 +10,7 @@ export class MainPage extends BasePage {
     async inputTextBox(): Promise<void> {
         const locator: Locator = this.page.locator(MainPageLocators.TEXT_BOX);
         await this.page.waitForTimeout(5000);
-        await locator.fill('あああ');
+        await locator.fill('unittest');
     }
 
     async clickGoButton(): Promise<void> {

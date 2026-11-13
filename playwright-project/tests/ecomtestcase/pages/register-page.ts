@@ -26,7 +26,7 @@ export class RegisterPage extends BasePage {
     locator = this.page.locator(RegisterPageLocators.EMAIL);
     await locator.click();
     await this.page.waitForTimeout(1000);
-    await locator.fill('test@unittest202611112233.com');
+    await locator.fill('test@unittest202611112234.com');
     await this.page.waitForTimeout(1000);
 
     // telephone
